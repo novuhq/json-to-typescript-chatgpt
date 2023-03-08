@@ -60,7 +60,7 @@ const App = () => {
 						height='90vh'
 						className='editor'
 						defaultLanguage='json'
-						defaultValue='{ hasbashas}'
+						defaultValue='{}'
 						value={value}
 						onChange={(value) => setValue(value)}
 					/>

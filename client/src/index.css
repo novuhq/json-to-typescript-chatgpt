@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Space Grotesk", sans-serif;
+}
+.app {
+	width: 100%;
+	min-height: 100vh;
+}
+.loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header__container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 10vh;
+	background-color: #e0f2fe;
+}
+.header__right {
+	display: flex;
+	align-items: center;
+}
+.runBtn {
+	padding: 10px 5px;
+	width: 100px;
+	margin-right: 10px;
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px #e0e0ea;
+	background-color: #065f46;
+	outline: none;
+	color: #fff;
+}
+header {
+	border: 1px solid #ddd;
+	padding: 10px 20px;
+	border: 1px solid #e8e2e2;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex: 0.5;
+	height: 100%;
+}
+.code__container {
+	display: flex;
+	height: 95vh;
+	width: 100%;
+	align-items: flex-start;
+}
+.minimap {
+	display: none;
+}
+.editor {
+	padding: 10px 0px;
+	width: 100%;
+}
+.code,
+.output {
+	width: 50vw;
+}
+.deleteIcon {
+	height: 25px;
+	color: #cf0a0a;
+	cursor: pointer;
+}
+.copyIcon {
+	height: 25px;
+	color: #3e54ac;
+	cursor: pointer;
+}

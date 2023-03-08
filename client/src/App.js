@@ -29,7 +29,9 @@ const App = () => {
 			.catch((err) => console.error(err));
 	};
 	const copyToClipBoard = () => alert(`Copied ✅`);
-
+	if (loading) {
+		return <Loading />;
+	}
 	return (
 		<main className='app'>
 			<div className='header__container'>
@@ -58,28 +60,24 @@ const App = () => {
 						height='90vh'
 						className='editor'
 						defaultLanguage='json'
-						defaultValue='{ }'
+						defaultValue='{}'
 						value={value}
 						onChange={(value) => setValue(value)}
 					/>
 				</div>
 
 				<div className='output'>
-					{loading ? (
-						<Loading />
-					) : (
-						<Editor
-							height='90vh'
-							className='editor'
-							defaultLanguage='typescript'
-							options={{
-								domReadOnly: true,
-								readOnly: true,
-							}}
-							defaultValue=''
-							value={output}
-						/>
-					)}
+					<Editor
+						height='90vh'
+						className='editor'
+						defaultLanguage='typescript'
+						options={{
+							domReadOnly: true,
+							readOnly: true,
+						}}
+						defaultValue=''
+						value={output}
+					/>
 				</div>
 			</div>
 		</main>

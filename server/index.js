@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const PORT = 4000;
-//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
+
 const configuration = new Configuration({
 	apiKey: "YOUR_API_KEY",
 });

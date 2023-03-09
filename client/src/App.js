@@ -33,7 +33,7 @@ const App = () => {
 	return (
 		<main className='app'>
 			<div className='header__container'>
-				<header>
+				<div className='header'>
 					<h3>JSON</h3>
 					<div className='header__right'>
 						<button className='runBtn' onClick={handleSubmit}>
@@ -41,15 +41,15 @@ const App = () => {
 						</button>
 						<Delete setValue={setValue} />
 					</div>
-				</header>
-				<header>
+				</div>
+				<div className='header'>
 					<h3>Typescript</h3>
 					<CopyToClipboard text={output} onCopy={copyToClipBoard}>
 						<span>
 							<Copy />
 						</span>
 					</CopyToClipboard>
-				</header>
+				</div>
 			</div>
 
 			<div className='code__container'>
@@ -78,6 +78,7 @@ const App = () => {
 							}}
 							defaultValue=''
 							value={output}
+							onChange={(value) => setOutput(value)}
 						/>
 					)}
 				</div>

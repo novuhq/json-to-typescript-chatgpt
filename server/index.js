@@ -17,8 +17,7 @@ app.use(cors());
 app.post("/convert", async (req, res) => {
 	let { value } = req.body;
 
-	const prompt = `Write the complete Typescript code for this JSON object \n ${value} Please, I need the only the code, I don't need any explanations.`;
-
+	const prompt = `Convert the JSON object into Typescript interfaces \n ${value} Please, I need the only the code, I don't need any explanations.`;
 	const completion = await openai.createChatCompletion({
 		model: "gpt-3.5-turbo",
 		messages: [{ role: "user", content: prompt }],

@@ -46,7 +46,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 This project is [MIT License](https://opensource.org/licenses/MIT) licensed.
 
 
-## Who made this project
+## 😱 Who made this project
 
 This project was made by [Novu](https://github.com/novuhq/novu/) - The open-source notification infrastructure for developers.
 

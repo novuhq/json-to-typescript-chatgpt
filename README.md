@@ -35,7 +35,7 @@ npm run start
 
 ## Who made this project
 
-This project was made by [Novu](https://novu.co) - The open-source notification infrastructure for developers.
+This project was made by [Novu](https://github.com/novuhq/novu/) - The open-source notification infrastructure for developers.
 
 Any contribution is welcomed!
 

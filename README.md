@@ -33,12 +33,6 @@ npm install
 npm run start
 ```
 
-## Who made this project
-
-This project was made by [Novu](https://github.com/novuhq/novu/) - The open-source notification infrastructure for developers.
-
-Any contribution is welcomed!
-
 ## 🤝 Contributing
 
 [Please check our Contribution guide to get started!](https://github.com/linvo-io/linvo-scraper/blob/main/CONTRIBUTING.md)
@@ -51,5 +45,26 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 This project is [MIT License](https://opensource.org/licenses/MIT) licensed.
 
+
+## Who made this project
+
+This project was made by [Novu](https://github.com/novuhq/novu/) - The open-source notification infrastructure for developers.
+
+Using the Novu API and admin panel, you can easily add a real-time notification center to your web app without building it yourself.
+
+You can use our React / Vue / Angular component or an iframe embed.
+
+<div align="center">
+<img width="762" alt="notification-center-912bb96e009fb3a69bafec23bcde00b0" src="https://user-images.githubusercontent.com/80174214/193887395-f1c95042-b4e6-480e-a89c-a78aa247fa90.gif">
+
+Read more about how to add a notification center to your app with the Novu API [here](https://docs.novu.co/notification-center/getting-started)
+
+<p align="center">
+  <a href="https://docs.novu.co/notification-center/getting-started">React Component</a>
+  · <a href="https://docs.novu.co/notification-center/vue-component">Vue Component</a>
+  · <a href="https://github.com/novuhq/novu/tree/next/packages/notification-center-angular">Angular Component</a>
+  </p>
+  
+</div>
+
 ***
-We accept contribution with great love! Show your interest! Contribute!

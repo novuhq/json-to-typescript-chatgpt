@@ -15,6 +15,10 @@
 
 This is a simple library build with NODEJS, React and OpenAI (chatgpt).
 
+You can see how we built it here :)
+
+https://dev.to/novu/building-a-json-to-typescript-converter-with-react-nodejs-and-chatgpt-46p2
+
 Help us out by starring this repo.
 
 ## Install the server and run it

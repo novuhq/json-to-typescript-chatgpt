@@ -1,7 +1,8 @@
 repo_name: novuhq/json-to-typescript-chatgpt
 report_id: 9fc7d4493f37a1c79f54ad57250f27c1
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T15:12:29+00:00'
+timestamp: '2024-01-04T14:58:15+00:00'
 requested_by: Cliftonz
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -37,7 +40,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: client/package-lock.json
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
   detection_source: server/package.json
   last_updated_by: David Asaolu
   last_updated_on: 2023-03-08 10:43:46.000000000 Z
@@ -51,7 +54,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: client/package-lock.json
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
   detection_source: client/package.json
   last_updated_by: David Asaolu
   last_updated_on: 2023-03-08 10:43:46.000000000 Z
@@ -64,6 +67,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/server/package.json
   detection_source: server/package.json
   last_updated_by: mubarak23
   last_updated_on: 2023-04-05 14:13:05.000000000 Z
@@ -75,6 +79,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt
   detection_source: Repo Metadata
 - name: nodemon
   description: A simple monitor script for use during development of a node.js app
@@ -86,7 +91,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: server/package-lock.json
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/server/package-lock.json
   detection_source: server/package.json
   last_updated_by: David Asaolu
   last_updated_on: 2023-03-08 10:43:46.000000000 Z
@@ -98,6 +103,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/server/package.json
   detection_source: server/package.json
   last_updated_by: David Asaolu
   last_updated_on: 2023-03-08 10:43:46.000000000 Z
@@ -110,6 +116,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt
   detection_source: Repo Metadata
 - name: "@testing-library/jest-dom"
   description: Custom jest matchers to test the state of the DOM
@@ -121,7 +128,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: client/package-lock.json
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
   detection_source: client/package.json
   last_updated_by: David Asaolu
   last_updated_on: 2023-03-08 10:43:46.000000000 Z
@@ -136,7 +143,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: client/package-lock.json
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
   detection_source: client/package.json
   last_updated_by: David Asaolu
   last_updated_on: 2023-03-08 10:43:46.000000000 Z
@@ -150,7 +157,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: server/package-lock.json
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/server/package-lock.json
   detection_source: server/package.json
   last_updated_by: David Asaolu
   last_updated_on: 2023-03-08 10:43:46.000000000 Z
@@ -164,7 +171,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: client/package-lock.json
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
   detection_source: server/package.json
   last_updated_by: David Asaolu
   last_updated_on: 2023-03-08 10:43:46.000000000 Z
@@ -178,7 +185,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17254/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
-  detection_source_url: client/package-lock.json
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
   detection_source: client/package.json
   last_updated_by: David Asaolu
   last_updated_on: 2023-03-08 10:43:46.000000000 Z
@@ -192,7 +199,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: client/package-lock.json
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
   detection_source: client/package.json
   last_updated_by: David Asaolu
   last_updated_on: 2023-03-08 10:43:46.000000000 Z
@@ -206,7 +213,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: client/package-lock.json
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
   detection_source: client/package.json
   last_updated_by: David Asaolu
   last_updated_on: 2023-03-08 10:43:46.000000000 Z

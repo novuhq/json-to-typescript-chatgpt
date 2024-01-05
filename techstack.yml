@@ -1,0 +1,219 @@
+repo_name: novuhq/json-to-typescript-chatgpt
+report_id: 9fc7d4493f37a1c79f54ad57250f27c1
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T09:22:52+00:00'
+requested_by: Cliftonz
+provider: github
+branch: main
+detected_tools_count: 16
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: David Asaolu
+  last_updated_on: 2023-03-08 10:43:46.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: David Asaolu
+  last_updated_on: 2023-03-08 10:43:46.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/server/package.json
+  detection_source: server/package.json
+  last_updated_by: mubarak23
+  last_updated_on: 2023-04-05 14:13:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt
+  detection_source: Repo Metadata
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: David Asaolu
+  last_updated_on: 2023-03-08 10:43:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/server/package.json
+  detection_source: server/package.json
+  last_updated_by: David Asaolu
+  last_updated_on: 2023-03-08 10:43:46.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt
+  detection_source: Repo Metadata
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.16.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: David Asaolu
+  last_updated_on: 2023-03-08 10:43:46.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 13.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: David Asaolu
+  last_updated_on: 2023-03-08 10:43:46.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: David Asaolu
+  last_updated_on: 2023-03-08 10:43:46.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: David Asaolu
+  last_updated_on: 2023-03-08 10:43:46.000000000 Z
+- name: react-copy-to-clipboard
+  description: Copy-to-clipboard React component
+  package_url: https://www.npmjs.com/react-copy-to-clipboard
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17254/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: David Asaolu
+  last_updated_on: 2023-03-08 10:43:46.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: David Asaolu
+  last_updated_on: 2023-03-08 10:43:46.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/novuhq/json-to-typescript-chatgpt/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: David Asaolu
+  last_updated_on: 2023-03-08 10:43:46.000000000 Z
